@@ -46,7 +46,6 @@ const Footer = () => {
 							</SocialIconLink>
 							<SocialIconLink
 								href="mailto:leon.tan004@gmail.com"
-								target="_blank"
 								rel="noopener noreferrer"
 								aria-label="Mail"
 							>
