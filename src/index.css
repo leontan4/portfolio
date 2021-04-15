@@ -625,12 +625,13 @@ MODAL
 	height: auto;
 	max-height: 446px;
 	top: 0;
-	bottom: 0;
+	bottom: 110px;
 	left: 0;
 	right: 0;
 	z-index: 101;
 	margin: auto;
 	/* overflow: auto; */
+	transition: all 0.3s;
 }
 
 .left-container {
@@ -778,7 +779,9 @@ MODAL
 	.modal-container-wrapper {
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 130px;
+		margin-top: 90px;
+		bottom: 150px;
+		transition: all 0.3s;
 	}
 
 	.left-container {
@@ -794,6 +797,12 @@ MODAL
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.modal-container-wrapper {
+		margin-top: 110px;
 	}
 }
 

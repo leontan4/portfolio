@@ -131,10 +131,19 @@ export const projects = [
 	{
 		id: 1,
 		title: "covid tracker",
-		languages: ["html & css", "javascript", "ejs", "chart.js", "bootstrap"],
+		languages: [
+			"html & css",
+			"javascript",
+			"ejs",
+			"Covid API",
+			"chart.js",
+			"bootstrap",
+		],
 		img: "./images/covid-news.jpg",
-		desc:
-			"Covid cases are still on the rise and people should continue to be on the lookout. Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs. ",
+		desc1:
+			"This is one of my first major projects when I started learning web development and the reason for this project is because I want to try improving on my fundamental skills before moving on to React.",
+		desc2:
+			"Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs. ",
 		url: "https://coronavirus-tracer.herokuapp.com/",
 		code: "https://github.com/leontan4/covid-dashboard",
 	},
@@ -151,8 +160,10 @@ export const projects = [
 			"bootstrap",
 		],
 		img: "./images/github-finder.jpg",
-		desc:
-			"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+		desc1:
+			"This is my first major React project after learning React for a few weeks and I got the inspiration from web developers online as this project is quite simple and straightforward. Project ",
+		desc2:
+			"On this project, I learned many new tools such as authentication method (Auth0), animation framework (framer-motion) and fusion charts to plot various statistics of github users. Also, it is easier to comprehand right away what languages the users used most.",
 		url: "https://coronavirus-tracer.herokuapp.com/",
 		code: "",
 	},
@@ -165,12 +176,15 @@ export const projects = [
 			"javascript",
 			"react",
 			"react router",
+			"react scroll",
 			"framer motion",
 			"bootstrap",
 		],
 		img: "./images/logo1.png",
-		desc:
-			"Covid cases are still on the rise and people should continue to be on the lookout. Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs.Covid cases are still on the rise and people should continue to be on the lookout. Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs.This project was built using React and is used to vizualize classic sorting algorithms such as insertion sort, merge sort, quick sort, etc.",
+		desc1:
+			"Since I have sufficient projects to display, this portfolio was built to showcase what I've learned so far. Besides, I am currently looking for a job as well.",
+		desc2:
+			"Besides the usual React fundamentals, I learned and implemented a few frameworks such as React Router, React Scroll and Framer Motion for better animation effect while browsing through my profile. This project was challenging because I intended to make it 'perfect' and created as much UX/UI for readers.",
 		url: "https://leontan.netlify.app/",
 		code: "https://github.com/leontan4/portfolio",
 	},

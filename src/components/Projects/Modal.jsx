@@ -2,7 +2,7 @@ import React, { useState, forwardRef, useImperativeHandle } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const ModalTest = forwardRef(
-	({ title, desc, languages, img, url, code }, ref) => {
+	({ title, desc1, desc2, languages, img, url, code }, ref) => {
 		const [open, setOpen] = useState(false);
 
 		useImperativeHandle(ref, () => {
@@ -86,7 +86,8 @@ const ModalTest = forwardRef(
 										</ul>
 										<h5 className="card-title modal-title">about</h5>
 										<motion.div className="info-container">
-											<p className="modal-info">{desc}</p>
+											<p className="modal-info">{desc1}</p>
+											<p className="modal-info">{desc2}</p>
 										</motion.div>
 										<a
 											className="modal-btn btn-animation"
