@@ -35,7 +35,7 @@ export const NavLogo = styled(RouterLink)`
 	font-size: 1.5rem;
 	display: flex;
 	align-items: center;
-	margin-left: 24px;
+	margin-left: 0px;
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;

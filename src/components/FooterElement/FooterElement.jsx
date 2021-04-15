@@ -13,6 +13,7 @@ export const FooterWrap = styled.div`
 	align-items: center;
 	max-width: 1100px;
 	margin: 0 auto;
+	padding-bottom: 45px;
 `;
 
 // export const FooterLinkContainer = styled.div`
@@ -76,7 +77,7 @@ export const SocialMediaWrap = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	max-width: 1100px;
-	margin: 30px auto 0 16px;
+	margin: 30px auto 0 auto;
 
 	@media screen and (max-width: 767px) {
 		flex-direction: column;

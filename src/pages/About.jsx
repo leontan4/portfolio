@@ -33,6 +33,7 @@ const About = ({ languagesUse, hobbies }) => {
 					style={{
 						justifyContent: "center",
 						paddingBottom: "50px",
+						marginRight: "15px",
 					}}
 				>
 					{languagesUse.map((language) => {
