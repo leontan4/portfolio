@@ -146,6 +146,7 @@ export const projects = [
 			"javascript",
 			"react",
 			"auth0",
+			"github api",
 			"fusion chart",
 			"bootstrap",
 		],

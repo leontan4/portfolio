@@ -626,6 +626,7 @@ MODAL
 	right: 0;
 	z-index: 101;
 	margin: auto;
+	/* overflow: auto; */
 }
 
 .left-container {
@@ -703,7 +704,7 @@ MODAL
 	color: #64ffda;
 	margin-top: 28px;
 	margin-right: 10px;
-	padding: 5px 32px;
+	padding: 1.5% 10%;
 	text-align: center;
 	border: 2px solid #64ffda;
 	font-family: "Staatliches", cursive;
@@ -769,12 +770,13 @@ MODAL
 	transform: scale(1.4);
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 	.modal-container-wrapper {
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 130px;
 	}
+
 	.left-container {
 		height: 250px;
 		width: 100%;
@@ -788,6 +790,25 @@ MODAL
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 458px) {
+	.modal-container-wrapper {
+		overflow-x: hidden;
+		overflow-y: auto;
+		max-height: 1000px;
+		margin-bottom: 100px;
+		bottom: 93px;
+	}
+
+	.modal-btn {
+		padding: 5px 15px;
+	}
+
+	.left-container img {
+		height: 200px;
+		margin-top: 25px;
 	}
 }
 
