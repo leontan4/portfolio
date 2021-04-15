@@ -4,7 +4,11 @@ import TypeWriter from "react-typing-effect";
 const ReactTyping = () => {
 	return (
 		<TypeWriter
-			text={["MERN Stack Developer.", "React Web Developer."]}
+			text={[
+				"MERN Stack Developer.",
+				"React Web Developer.",
+				"Strive to Thrive.",
+			]}
 			speed={50}
 			eraseSpeed={50}
 			eraseDelay={3000}
