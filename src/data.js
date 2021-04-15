@@ -170,7 +170,7 @@ export const projects = [
 		img: "./images/logo.png",
 		desc:
 			"Covid cases are still on the rise and people should continue to be on the lookout. Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs.Covid cases are still on the rise and people should continue to be on the lookout. Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs.This project was built using React and is used to vizualize classic sorting algorithms such as insertion sort, merge sort, quick sort, etc.",
-		url: "",
+		url: "https://leontan.netlify.app/",
 		code: "https://github.com/leontan4/portfolio",
 	},
 ];
