@@ -28,6 +28,7 @@ const ModalTest = forwardRef(
 							exit={{
 								opacity: 0,
 							}}
+							onClick={() => setOpen(false)}
 						/>
 						<motion.div
 							className="mb-auto modal-container-wrapper"

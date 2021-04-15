@@ -21,9 +21,9 @@ const Home = () => {
 								<p
 									style={{
 										color: "#8892b0",
-										fontSize: "1rem",
 										padding: "15px 0px",
 									}}
+									className="home-text"
 								>
 									I'm a recent Software Engineering graduate from University of
 									St. Thomas with fundamental knowledge in front-end framework.
