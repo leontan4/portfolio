@@ -143,10 +143,8 @@ HOME
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
-	color: black;
 }
 
-.home-section,
 .experience-section,
 .footer-section {
 	background-color: #0a192f;
@@ -169,7 +167,7 @@ HOME
 
 .home-header-2 {
 	color: #8892b0;
-	font-size: clamp(40px, 5vw, 60px);
+	font-size: clamp(33px, 5vw, 60px);
 }
 
 .home-btn {
@@ -274,6 +272,7 @@ CONTACT
 @media (max-width: 767px) {
 	.contact-link {
 		padding: 0.8rem 0.8rem 0.6rem 0.9rem;
+		display: none;
 	}
 }
 
@@ -791,4 +790,67 @@ MODAL
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+/*
+=============== 
+ERROR
+===============
+*/
+
+.error-container {
+	width: 100vw;
+	height: auto;
+	background-color: #0a192f;
+}
+
+.error-header {
+	padding: 40px 0;
+	color: #ccd6f6;
+	font-size: clamp(33px, 5vw, 60px);
+}
+
+.error-btn {
+	background-color: #0a192f;
+	color: #64ffda;
+	padding: 10px 30px;
+	text-align: center;
+	border: 2px solid #64ffda;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.btn-animation::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #64ffda;
+
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.error-btn.btn-animation:hover::before,
+.error-btn.btn-animation:active::before {
+	transform: scaleX(1);
+}
+
+.error-btn.btn-animation {
+	transition: color 300ms ease-in-out;
+	z-index: 1;
+}
+
+.error-btn.btn-animation:hover,
+.error-btn.btn-animation:focus {
+	color: #0a192f;
 }

@@ -1,13 +1,7 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {
 	FooterContainer,
-	FooterLinkContainer,
 	FooterWrap,
-	FooterLinkWrapper,
-	FooterLinkTitle,
-	FooterLinkItems,
-	FooterLink,
 	SocialIconLink,
 	SocialIcons,
 	SocialMediaWrap,
@@ -29,21 +23,41 @@ const Footer = () => {
 				</FooterLinkContainer> */}
 				<SocialMedia>
 					<SocialMediaWrap>
-						<SocialLogo>LEON TAN</SocialLogo>
+						<SocialLogo to="/">LEON TAN</SocialLogo>
 						<WebsiteRights>
 							Leon Tan &copy; {new Date().getFullYear()} All rights reserved.
 						</WebsiteRights>
 						<SocialIcons>
-							<SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+							<SocialIconLink
+								href="https://linkedin.com/in/leontan4"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="LinkedIn"
+							>
 								<i className="fab fa-linkedin-in"></i>
 							</SocialIconLink>
-							<SocialIconLink href="/" target="_blank" aria-label="Github">
+							<SocialIconLink
+								href="https://github.com/leontan4"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Github"
+							>
 								<i className="fab fa-github"></i>
 							</SocialIconLink>
-							<SocialIconLink href="/" target="_blank" aria-label="Mail">
+							<SocialIconLink
+								href="mailto:leon.tan004@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Mail"
+							>
 								<i className="far fa-envelope"></i>
 							</SocialIconLink>
-							<SocialIconLink href="/" target="_blank" aria-label="Resume">
+							<SocialIconLink
+								href="/Leon Tan (Resume).pdf"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Resume"
+							>
 								<i className="far fa-file"></i>
 							</SocialIconLink>
 						</SocialIcons>

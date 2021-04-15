@@ -91,6 +91,7 @@ const ModalTest = forwardRef(
 											className="modal-btn btn-animation"
 											href={url}
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											<i className="fas fa-external-link-alt"></i> view
 										</a>
@@ -98,6 +99,7 @@ const ModalTest = forwardRef(
 											className="modal-btn btn-animation"
 											href={code}
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											<i className="fab fa-github"></i>
 											code

@@ -15,6 +15,7 @@ function Contact({ contacts }) {
 							<a
 								href={link}
 								target={social === "email" ? "" : `_target`}
+								rel="noopener noreferrer"
 								className={`contact-${social} contact-link`}
 								style={{
 									color: "white",

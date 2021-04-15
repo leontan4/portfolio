@@ -10,6 +10,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import { projects, languagesUse, hobbies, experiences, contacts } from "./data";
 import Footer from "./components/Footer";
+import Error from "./pages/Error";
 
 function App() {
 	return (
@@ -28,6 +29,9 @@ function App() {
 						<Contact contacts={contacts} />
 						<Footer />
 					</main>
+				</Route>
+				<Route path="*">
+					<Error />
 				</Route>
 			</Switch>
 		</Router>

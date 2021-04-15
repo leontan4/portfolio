@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-// #64ffda
+
 export const FooterContainer = styled.footer`
 	background-color: #112240;
 `;
 
 export const FooterWrap = styled.div`
-	padding: 48px 24px;
+	padding: 5px 24px 25px 24px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -15,56 +15,56 @@ export const FooterWrap = styled.div`
 	margin: 0 auto;
 `;
 
-export const FooterLinkContainer = styled.div`
-	display: flex;
-	justify-content: center;
+// export const FooterLinkContainer = styled.div`
+// 	display: flex;
+// 	justify-content: center;
 
-	@media screen and (max-wdith: 820px) {
-		padding-top: 32px;
-	}
-`;
+// 	@media screen and (max-wdith: 767px) {
+// 		padding-top: 0px;
+// 	}
+// `;
 
-export const FooterLinkWrapper = styled.div`
-	display: flex;
+// export const FooterLinkWrapper = styled.div`
+// 	display: flex;
 
-	@media screen and (max-width: 820px) {
-		flex-direction: column;
-	}
-`;
+// 	@media screen and (max-width: 767px) {
+// 		flex-direction: column;
+// 	}
+// `;
 
-export const FooterLinkItems = styled.div`
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	margin: 16px;
-	text-align: left;
-	width: 160px;
-	box-sizing: border-box;
-	color: #64ffda;
+// export const FooterLinkItems = styled.div`
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: flex-start;
+// 	margin: 16px;
+// 	text-align: left;
+// 	width: 160px;
+// 	box-sizing: border-box;
+// 	color: #64ffda;
 
-	@media screen and (max-wdith: 420px) {
-		margin: 0;
-		padding: 10px;
-		width: 100%;
-	}
-`;
+// 	@media screen and (max-wdith: 420px) {
+// 		margin: 0;
+// 		padding: 10px;
+// 		width: 100%;
+// 	}
+// `;
 
-export const FooterLinkTitle = styled.h1`
-	font-size: 14px;
-	margin-bottom: 16px;
-`;
+// export const FooterLinkTitle = styled.h1`
+// 	font-size: 14px;
+// 	margin-bottom: 16px;
+// `;
 
-export const FooterLink = styled(Link)`
-	color: #fff;
-	text-decoration: none;
-	margin-bottom: 0.5rem;
-	font-size: 14px;
+// export const FooterLink = styled(Link)`
+// 	color: #fff;
+// 	text-decoration: none;
+// 	margin-bottom: 0.5rem;
+// 	font-size: 14px;
 
-	&:hover {
-		color: #112240;
-		transition: 0.3s ease-out;
-	}
-`;
+// 	&:hover {
+// 		color: #112240;
+// 		transition: 0.3s ease-out;
+// 	}
+// `;
 
 export const SocialMedia = styled.section`
 	max-width: 1000px;
@@ -78,7 +78,7 @@ export const SocialMediaWrap = styled.div`
 	max-width: 1100px;
 	margin: 30px auto 0 16px;
 
-	@media screen and (max-width: 820px) {
+	@media screen and (max-width: 767px) {
 		flex-direction: column;
 	}
 `;
@@ -103,7 +103,7 @@ export const SocialLogo = styled(Link)`
 		transform: scale(1.3);
 	}
 
-	@media screen and (max-width: 820px) {
+	@media screen and (max-width: 767px) {
 		margin-bottom: 10px;
 	}
 `;
@@ -114,7 +114,7 @@ export const WebsiteRights = styled.small`
 	margin-top: 10px;
 	font-size: 1rem;
 
-	@media screen and (max-width: 820px) {
+	@media screen and (max-width: 767px) {
 		margin-bottom: 25px;
 	}
 `;

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { animateScroll as scroll } from "react-scroll";
+import React from "react";
+// import { animateScroll as scroll } from "react-scroll";
 import {
 	Nav,
 	NavbarContainer,
@@ -9,7 +9,6 @@ import {
 	NavItem,
 	NavLinks,
 	NavBtn,
-	NavBtnLink,
 } from "./Navbar";
 
 const Navbar = ({ toggle }) => {
@@ -69,6 +68,7 @@ const Navbar = ({ toggle }) => {
 					<NavBtn>
 						<a
 							href="/Leon Tan (Resume).pdf"
+							rel="noopener noreferrer"
 							target="_blank"
 							className="resume-nav-btn"
 						>

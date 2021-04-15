@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/Projects/ProjectCard";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 
 const Project = ({ projects }) => {
 	return (

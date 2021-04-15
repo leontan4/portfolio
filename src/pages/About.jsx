@@ -6,7 +6,13 @@ import { Container, Row, Col } from "react-bootstrap";
 const About = ({ languagesUse, hobbies }) => {
 	return (
 		<section className="about-section" id="about">
-			<Container style={{ paddingTop: "60px", paddingBottom: "60px" }}>
+			<Container
+				style={{
+					paddingTop: "60px",
+					paddingBottom: "60px",
+					overflow: "hidden",
+				}}
+			>
 				<Col md={{ span: 12, offset: 1 }}>
 					<Row className="justify-content-md-center">
 						<Col>

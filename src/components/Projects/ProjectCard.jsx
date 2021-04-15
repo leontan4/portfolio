@@ -4,14 +4,14 @@ import Modal from "./Modal";
 const ProjectCard = ({ project }) => {
 	const modalRef = useRef();
 
-	const { img } = project;
+	const { img, title } = project;
 	return (
 		<div className="col-md-6 project-container">
 			<div className="card h-100 project-card-section">
 				<img
 					className="card-img-top project-img img-fluid"
 					src={img}
-					alt="Card image cap"
+					alt={title}
 				/>
 				<div className="card-body d-flex align-items-stretch">
 					{/* <button

@@ -8,7 +8,7 @@ const Experience = ({ experiences }) => {
 
 	return (
 		<section className="experience-section" id="experience">
-			<Container>
+			<Container style={{ overflow: "hidden" }}>
 				<Row>
 					<Col md={{ span: 12, offset: 1 }}>
 						<div className="title">
