@@ -165,7 +165,7 @@ export const projects = [
 		desc2:
 			"On this project, I learned many new tools such as authentication method (Auth0), animation framework (framer-motion) and fusion charts to plot various statistics of github users. Also, it is easier to comprehand right away what languages the users used most.",
 		url: "https://coronavirus-tracer.herokuapp.com/",
-		code: "",
+		code: "https://github.com/leontan4/github-finder",
 	},
 
 	{
