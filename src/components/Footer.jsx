@@ -1,10 +1,11 @@
 import React from "react";
+import FooterElement from "./FooterElement";
 
 const Footer = () => {
 	return (
-		<section className="footer-section">
-			<h2>Footer</h2>
-		</section>
+		<React.Fragment>
+			<FooterElement />
+		</React.Fragment>
 	);
 };
 

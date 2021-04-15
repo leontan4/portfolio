@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import ScrollIndicator from "./components/ScrollIndicator";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -10,6 +9,7 @@ import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import { projects, languagesUse, hobbies, experiences, contacts } from "./data";
+import Footer from "./components/Footer";
 
 function App() {
 	return (

@@ -195,14 +195,14 @@ export const contacts = [
 	{
 		id: 1,
 		social: "linkedin",
-		icon: "fab fa-linkedin",
+		icon: "fab fa-linkedin-in",
 		color: "#0077b5",
 		link: "https://linkedin.com/in/leontan4",
 	},
 	{
 		id: 2,
 		social: "github",
-		icon: "fab fa-github-square",
+		icon: "fab fa-github",
 		color: "#333",
 		link: "https://github.com/leontan4",
 	},

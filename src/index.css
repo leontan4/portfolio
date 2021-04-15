@@ -228,6 +228,7 @@ CONTACT
 	top: 50%;
 	transform: translateY(-50%);
 	left: -7.4rem;
+	z-index: 3;
 }
 
 .contact-item {
