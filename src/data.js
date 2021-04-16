@@ -163,7 +163,7 @@ export const projects = [
 		desc1:
 			"This is my first major React project after learning React for a few weeks and I got the inspiration from web developers online as this project is quite simple and straightforward. Project ",
 		desc2:
-			"On this project, I learned many new tools such as authentication method (Auth0), animation framework (framer-motion) and fusion charts to plot various statistics of github users. Also, it is easier to comprehand right away what languages the users used most.",
+			"On this project, I learned many new tools such as authentication method (Auth0), animation framework (fusion charts) to plot various statistics of github users. Also, it is easier to comprehand right away what languages the users used most.",
 		url: "https://coronavirus-tracer.herokuapp.com/",
 		code: "https://github.com/leontan4/github-finder",
 	},
@@ -180,7 +180,7 @@ export const projects = [
 			"framer motion",
 			"bootstrap",
 		],
-		img: "./images/logo1.png",
+		img: "./images/portfolio.png",
 		desc1:
 			"Since I have sufficient projects to display, this portfolio was built to showcase what I've learned so far. Besides, I am currently looking for a job as well.",
 		desc2:

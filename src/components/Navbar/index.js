@@ -20,7 +20,7 @@ const Navbar = ({ toggle }) => {
 		<React.Fragment>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to="/">Leon Tan</NavLogo>
+					<NavLogo to="/">LT</NavLogo>
 					<MobileIcon onClick={toggle}>
 						<i className="fas fa-bars nav-burger-menu"></i>{" "}
 					</MobileIcon>
