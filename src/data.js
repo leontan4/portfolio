@@ -164,7 +164,7 @@ export const projects = [
 			"This is my first major React project after learning React for a few weeks and I got the inspiration from web developers online as this project is quite simple and straightforward. Project ",
 		desc2:
 			"On this project, I learned many new tools such as authentication method (Auth0), animation framework (fusion charts) to plot various statistics of github users. Also, it is easier to comprehand right away what languages the users used most.",
-		url: "https://coronavirus-tracer.herokuapp.com/",
+		url: "https://github-statistics.netlify.app/",
 		code: "https://github.com/leontan4/github-finder",
 	},
 
