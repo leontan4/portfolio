@@ -8,6 +8,7 @@ const ReactTyping = () => {
 				"MERN Stack Developer.",
 				"React Web Developer.",
 				"Strive to Thrive.",
+				"Always be Curious.",
 			]}
 			speed={50}
 			eraseSpeed={50}
