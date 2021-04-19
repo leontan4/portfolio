@@ -138,6 +138,8 @@ export const projects = [
 			"Covid API",
 			"chart.js",
 			"bootstrap",
+			"backend",
+			"frontend",
 		],
 		img: "./images/covid-news.jpg",
 		desc1:
@@ -158,6 +160,8 @@ export const projects = [
 			"github api",
 			"fusion chart",
 			"bootstrap",
+			"backend",
+			"frontend",
 		],
 		img: "./images/github-finder.jpg",
 		desc1:
@@ -179,6 +183,7 @@ export const projects = [
 			"react scroll",
 			"framer motion",
 			"bootstrap",
+			"frontend",
 		],
 		img: "./images/portfolio.png",
 		desc1:
