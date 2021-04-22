@@ -148,7 +148,7 @@ export const projects = [
 		desc1:
 			"This is one of my first major projects when I started learning web development and the reason for this project is because I want to try improving on my fundamental skills before moving on to React.",
 		desc2:
-			"Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Javascript and EJS runs the back end by fetching JSON information, while Chart.js focuses on the front-end for building graphs. ",
+			"Daily Covid-19 data was pulled from Open Disease Data and integrated to graph plus table for better interpretation. Node.js runs the back end by fetching JSON information, while EJS and Chart.js focuses on the front-end for building graphs. ",
 		url: "https://coronavirus-tracer.herokuapp.com/",
 		code: "https://github.com/leontan4/covid-dashboard",
 	},
