@@ -91,9 +91,9 @@ export const experiences = [
 		city: "eagan",
 		state: "mn",
 		duties: [
-			"Analyzed quarterly digital sales report and recommended potential opportunities for database automation team.",
-			"Designed automation VBA scripts to enhance analysis run‑time, reduced calculation and pricing errors by 90%.",
-			"Developed strong analytical and financial skills, which helped to anticipate market and company needs.",
+			"Enhance analysis run‑time, reduced calculation and pricing errors by 90% after creation of automation VBA scripts.",
+			"Improved quarterly digital sales report for database automation team by scraping client data using VBA scripts.",
+			"Anticipated product sales by integrating financial algorithm based on clients’ financial needs.",
 		],
 	},
 	{
@@ -105,9 +105,9 @@ export const experiences = [
 		city: "maplewood",
 		state: "mn",
 		duties: [
-			"Created VBA automation scripts for ad hoc financial analysis and SQL database to yield report findings.",
-			"Deviated contract pricing and analytical reporting across various internal/external business group.",
-			"Utilized cost estimation systems to document project information and revise project costs to reflect current data.",
+			"Reduced financial analysis run‑time to yield better report findings from SQL database with automated VBA.",
+			"Deviated contract pricing and analyze reports across various business group through VBA automation.",
+			"Utilized cost estimation systems to revise project costs through VBA scripts.",
 		],
 	},
 	{
