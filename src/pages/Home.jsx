@@ -90,10 +90,9 @@ const Home = () => {
 											}}
 											className="home-text"
 										>
-											I'm a recent Software Engineering graduate from University
-											of St. Thomas with fundamental knowledge in front-end
-											framework. Currently, I'm open to potential job
-											opportunities.
+											I'm a Software Engineering graduate from University of St.
+											Thomas with fundamental knowledge in front-end framework.
+											Currently, I'm open to potential job opportunities.
 										</motion.p>
 									</Col>
 								</Row>
