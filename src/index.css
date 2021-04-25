@@ -64,6 +64,14 @@ PRELOADER
 	height: 100vh;
 }
 
+.particles {
+	/* position: fixed; */
+	z-index: -999;
+	background-color: #0a192f;
+	width: 100vw;
+	height: 100vh;
+	/* overflow: hidden; */
+}
 /*
 =============== 
 HOME
