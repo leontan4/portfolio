@@ -30,7 +30,8 @@ const Project = ({ projects }) => {
 				animate={animation}
 				className="project-header"
 			>
-				My Recent <strong style={{ color: "rgb(26, 163, 152)" }}>Works</strong>
+				My Recent{" "}
+				<strong style={{ color: "rgb(26, 163, 152)" }}>Projects</strong>
 			</motion.h1>
 			<motion.p
 				ref={ref}
