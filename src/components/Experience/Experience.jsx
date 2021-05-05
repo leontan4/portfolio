@@ -44,7 +44,7 @@ const Experience = ({ experiences }) => {
 								<motion.h1 animate={animation} className="experience-header">
 									Where I've{" "}
 									<span style={{ color: "#64ffda" }}>
-										<strong>Work</strong>
+										<strong>Worked</strong>
 									</span>
 								</motion.h1>
 							</div>
