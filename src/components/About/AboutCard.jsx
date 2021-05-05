@@ -26,14 +26,13 @@ const AboutCard = ({ hobbies }) => {
 			<Col style={{ textAlign: "justify" }}>
 				<motion.p>
 					Hello there! My name is Leon and I am from Malaysia. I'm currently in
-					my last semester pursuing Master's in Software Engineering at
+					my last semester pursuing a Master's in Software Engineering at
 					University of St. Thomas.
 				</motion.p>
 				<motion.p>
-					I started learning web development in 2018 but never really made any
-					great progress due to busy work and lack of commitment. However, this
-					lockdown has given me the opportunity to explore programming to the
-					best of my capabilities.
+					I started learning Web Development in 2018 and the lockdown in 2020
+					has given me better opportunity to explore programming to the best of
+					my capabilities.
 				</motion.p>
 				<Hobby hobbies={hobbies} />
 			</Col>
