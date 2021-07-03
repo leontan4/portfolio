@@ -201,17 +201,16 @@ export const projects = [
 	},
 	{
 		id: 4,
-		title: "Airbnb 101",
+		title: "airbnb housing market",
 		languages: [
-			"r",
-			"csv",
+			"r programming",
 			"data analysis",
 			"data mining",
 			"data cleaning",
 			"tableau",
 			"statistics",
 			"geomapping",
-			"kaggle",
+			"airbnb",
 		],
 		img: "./images/airbnb.png",
 		desc1:
