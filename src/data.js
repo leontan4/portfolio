@@ -199,6 +199,28 @@ export const projects = [
 		url: "https://leontan.netlify.app/",
 		code: "https://github.com/leontan4/portfolio",
 	},
+	{
+		id: 4,
+		title: "Airbnb 101",
+		languages: [
+			"data analysis",
+			"data mining",
+			"data cleaning",
+			"r",
+			"tableau",
+			"statistics",
+			"geomapping",
+			"kaggle",
+			"",
+		],
+		img: "./images/airbnb.png",
+		desc1:
+			"Since I have sufficient projects to display, this portfolio was built to showcase what I've learned so far. Besides, I am currently looking for a job as well.",
+		desc2:
+			"Besides the usual React fundamentals, I learned and implemented a few frameworks such as React Router, React Scroll and Framer Motion for better animation effect while browsing through my profile. This project was challenging because I intended to make it 'perfect' and created as much UX/UI for readers.",
+		url: "https://public.tableau.com/app/profile/leon.tan/viz/AirbnbPresentation_16040943767570/AirbnbBusiness",
+		code: "https://github.com/leontan4/airbnb101/tree/master",
+	},
 ];
 
 export const languageColor = {
@@ -231,7 +253,7 @@ export const contacts = [
 		social: "github",
 		icon: "fab fa-github",
 		color: "#333",
-		link: "https://github.com/leontan4",
+		link: "https://github.com/leontan4?tab=repositories",
 	},
 	{
 		id: 3,
