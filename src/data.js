@@ -252,7 +252,7 @@ export const contacts = [
 		social: "github",
 		icon: "fab fa-github",
 		color: "#333",
-		link: "https://github.com/leontan4?tab=repositories",
+		link: "https://github.com/leontan4",
 	},
 	{
 		id: 3,
