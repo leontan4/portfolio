@@ -84,23 +84,36 @@ export const languagesUse = [
 export const experiences = [
 	{
 		id: 1,
+		company: "unfi",
+		title: "data engineer",
+		dateStart: [{ month: "october", year: "2021" }],
+		dateEnd: [{ month: "present", year: "" }],
+		city: "eden prairie",
+		state: "mn",
+		duties: [
+			"Design and implemented data pipeline in Alteryx to automate reporting process and improve ETL efficiency.",
+			"Developed high performance data pipelines to support SQL data integration and improved time efficiency by 90%.",
+			"Maintained data pipeline architecture to provide easier access to data analytic and reporting team.",
+		],
+	},
+	{
+		id: 2,
 		company: "thomson reuters",
 		dateStart: [{ month: "july", year: "2019" }],
 		dateEnd: [{ month: "may", year: "2020" }],
-		title: "analyst",
+		title: "data analyst",
 		city: "eagan",
 		state: "mn",
 		duties: [
 			"Created and debugged an automation program that enhanced analysis run‑time and pricing errors by 90%.",
 			"Compiled complex data reports and delivered benchmarking/forecasting analysis for senior management.",
 			"Improved quarterly sales report for database automation team by dynamically scraping clients’ data with scripting.",
-			"Integrated financial algorithm and tracked monthly reports based on client’s financial needs.",
 		],
 	},
 	{
-		id: 2,
+		id: 3,
 		company: "3m",
-		title: "analyst",
+		title: "financial analyst",
 		dateStart: [{ month: "july", year: "2018" }],
 		dateEnd: [{ month: "july", year: "2019" }],
 		city: "maplewood",
@@ -110,21 +123,7 @@ export const experiences = [
 			"Deviated contract pricing and analyze reports across various business group through automated scripting.",
 			"Utilized cost estimation systems to revise project and account maintenance.",
 		],
-	},
-	{
-		id: 3,
-		company: "s&f",
-		title: "product specialist",
-		dateStart: [{ month: "february", year: "2017" }],
-		dateEnd: [{ month: "september", year: "2017" }],
-		city: "woodbury",
-		state: "mn",
-		duties: [
-			"Constructed statistic reports of orders to ease labeling usage of product development.",
-			"Processed order of product specifications with in‑house software (Java) to improve product analysis production.",
-			"Researched product’s technical specifications and accurately communicated information between departments.",
-		],
-	},
+	}
 ];
 
 // Projects Section
