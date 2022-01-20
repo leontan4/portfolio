@@ -7,7 +7,7 @@ const ReactTyping = () => {
 			text={[
 				"MERN Stack Developer.",
 				"React Web Developer.",
-				"Cloud Technology Enthusiast",
+				"Cloud Technology Enthusiast.",
 				"Lifelong Learner.",
 			]}
 			speed={50}
