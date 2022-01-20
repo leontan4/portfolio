@@ -90,8 +90,8 @@ const Home = () => {
 											}}
 											className="home-text"
 										>
-											I'm a Software Engineering graduate from University of St.
-											Thomas with fundamental knowledge in front-end frameworks.
+											I'm a recent Software Engineer graduate and looking to put my technical skills in good use!
+											I'm a passionate Fullstack Web Developer and have experience in React and Java!
 											Currently, I'm open to potential job opportunities.
 										</motion.p>
 									</Col>
