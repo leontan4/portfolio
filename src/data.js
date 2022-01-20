@@ -143,9 +143,9 @@ export const projects = [
 		],
 		img: "./images/sofit.png",
 		desc1:
-			"Thinking about the prompt, we considered several already existing platforms that help students connect with companies like Handshake, Indeed, and Glassdoor. While talking, we discovered that one of our teammates actually found this Hackathon through TikTok while randomly scrolling for entertainment. We realized that the current short-video media platforms are extremely effective at not only reaching out to the population but also keeping users engaged. We then had an idea to develop a platform that borrows aspects of the entertainment media and professional websites. Thus, Sofit was born.",
+			"My first hackathon project with 4 other team members! Sofit allows companies to create engaging short form video content to showcase opportunities within their companies to rising talent. Students using the platform can develop their own professional profile by including a video resume and uploading their personal profile.",
 		desc2:
-			"Sofit allows companies to create engaging short form video content to showcase opportunities within their companies to rising talent. Students using the platform can develop their own professional profile by including a video resume and uploading their personal profile.Through this app, we can match students and companies with roles and talents that best fit their interests. In addition, our platform helps students find valuable mentorship opportunities and allow companies to effectively empower and help students in their career development.",
+			"Through this app, we can match students and companies with roles and talents that best fit their interests. In addition, our platform helps students find valuable mentorship opportunities and allow companies to effectively empower and help students in their career development.",
 		url: "https://devpost.com/software/sofit",
 		code: "https://app.pitch.com/app/public/player/788ca7b2-d9b4-4a89-9caa-355994fd77fd/832ed020-8e71-4dcc-a47d-4f2f98bf7eab",
 	},
