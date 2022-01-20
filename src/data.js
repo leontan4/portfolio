@@ -130,6 +130,27 @@ export const experiences = [
 export const projects = [
 	{
 		id: 1,
+		title: "sofit",
+		languages: [
+			"winner",
+			"hackathon",
+			"wireframe.cc",
+			"adobeXD",
+			"figma",
+			"pitch.com",
+			"frontend",
+			"backend"
+		],
+		img: "./images/sofit.png",
+		desc1:
+			"Thinking about the prompt, we considered several already existing platforms that help students connect with companies like Handshake, Indeed, and Glassdoor. While talking, we discovered that one of our teammates actually found this Hackathon through TikTok while randomly scrolling for entertainment. We realized that the current short-video media platforms are extremely effective at not only reaching out to the population but also keeping users engaged. We then had an idea to develop a platform that borrows aspects of the entertainment media and professional websites. Thus, Sofit was born.",
+		desc2:
+			"Sofit allows companies to create engaging short form video content to showcase opportunities within their companies to rising talent. Students using the platform can develop their own professional profile by including a video resume and uploading their personal profile.Through this app, we can match students and companies with roles and talents that best fit their interests. In addition, our platform helps students find valuable mentorship opportunities and allow companies to effectively empower and help students in their career development.",
+		url: "https://devpost.com/software/sofit",
+		code: "https://app.pitch.com/app/public/player/788ca7b2-d9b4-4a89-9caa-355994fd77fd/832ed020-8e71-4dcc-a47d-4f2f98bf7eab",
+	},
+	{
+		id: 2,
 		title: "covid tracker",
 		languages: [
 			"html & css",
@@ -153,7 +174,7 @@ export const projects = [
 		code: "https://github.com/leontan4/covid-dashboard",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "github profile finder",
 		languages: [
 			"html & css",
@@ -177,7 +198,7 @@ export const projects = [
 	},
 
 	{
-		id: 3,
+		id: 4,
 		title: "portfolio",
 		languages: [
 			"html & css",
@@ -199,7 +220,7 @@ export const projects = [
 		code: "https://github.com/leontan4/portfolio",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "airbnb housing market",
 		languages: [
 			"r programming",
