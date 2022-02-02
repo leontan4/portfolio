@@ -25,9 +25,9 @@ const AboutCard = ({ hobbies }) => {
 		<motion.div variants={fadeInUp} className="row summary-section">
 			<Col style={{ textAlign: "justify" }}>
 				<motion.p>
-					Hello there! My name is Leon and I am from Malaysia. I'm currently in
-					my last semester pursuing a Master's in Software Engineering at
-					University of St. Thomas.
+					Hello there! My name is Leon and I am from Malaysia. I'm currently working at UNFI as a Data Engineer. 
+					My day-to-day job involves maintaining data report pipeline, data cleaning and transforming data into a comprehendible story for the analyst team.
+					Technology and tools that I often would use are Python, Alteryx and SQL.
 				</motion.p>
 				<motion.p>
 					I started learning Web Development in 2018 and the lockdown in 2020
