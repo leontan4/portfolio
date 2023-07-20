@@ -88,12 +88,16 @@ export const experiences = [
 		title: "data engineer",
 		dateStart: [{ month: "october", year: "2021" }],
 		dateEnd: [{ month: "present", year: "" }],
-		city: "eden prairie",
+		city: "minneapolis",
 		state: "mn",
 		duties: [
-			"Design and implemented data pipeline in Alteryx to automate reporting process and improve ETL efficiency.",
-			"Developed high performance data pipelines to support SQL data integration and improved time efficiency by 90%.",
-			"Maintained data pipeline architecture to provide easier access to data analytic and reporting team.",
+			"Automated reporting processes and enhanced ETL efficiency through Python, SQL, and AWS.",
+			"Conducted bug fixes using dBeaver, CloudFormation, and Step Functions.",
+			"Collaborated with team members to migrate on‑premises data into AWS cloud environment.",
+			"Developed and maintained enterprise data platform infrastructure for data‑driven decision‑making.",
+			"Designed and implemented high‑performance data pipelines, improving integration efficiency by 90%.",
+			"Ensured data pipeline architecture was robust and accessible to analytic and forecasting teams.",
+			"Optimized cross‑functional data extraction, improving accessibility for business stakeholders.",
 		],
 	},
 	{
@@ -102,7 +106,7 @@ export const experiences = [
 		title: "data engineer/data analyst (contract)",
 		dateStart: [{ month: "july", year: "2019" }],
 		dateEnd: [{ month: "may", year: "2020" }],
-		city: "eagan",
+		city: "minneapolis",
 		state: "mn",
 		duties: [
 			"Designed and debugged automation, achieving 90% improvement in analysis runtime and pricing accuracy.",
@@ -116,7 +120,7 @@ export const experiences = [
 		title: "financial analyst (contract)",
 		dateStart: [{ month: "july", year: "2018" }],
 		dateEnd: [{ month: "july", year: "2019" }],
-		city: "maplewood",
+		city: "minneapolis",
 		state: "mn",
 		duties: [
 			"Automated report generation from SQL databases, reducing financial analysis runtime.",
@@ -129,14 +133,42 @@ export const experiences = [
 		id: 4,
 		company: "s&f corporation",
 		title: "product analyst",
-		dateStart: [{ month: "july", year: "2018" }],
-		dateEnd: [{ month: "july", year: "2019" }],
-		city: "maplewood",
+		dateStart: [{ month: "february", year: "2017" }],
+		dateEnd: [{ month: "september", year: "2017" }],
+		city: "minneapolis",
 		state: "mn",
 		duties: [
 			"Conducted thorough research on product technical specifications and effectively facilitated communication between different departments.",
 			"Generated statistical reports for product orders, optimizing product development labeling processes.",
 			"Utilized in‑house software to efficiently process product specifications, enhancing product analysis production.",
+		],
+	}
+	{
+		id: 5,
+		company: "the omerta group",
+		title: "junior analyst (internship)",
+		dateStart: [{ month: "june", year: "2016" }],
+		dateEnd: [{ month: "august", year: "2016" }],
+		city: "new york city",
+		state: "mn",
+		duties: [
+			"Analyzing large datasets to extract meaningful insights and trends, supporting leadership in data‑driven decisions.",
+			"Conducted market research on industry trends, competitors, and opportunities to provide valuable inputs for strategic decision‑making.",
+			"Produce presentable and multiple visually appealing network diagrams for conveying insights to stakeholders.",
+		],
+	}
+	{
+		id: 6,
+		company: "university of minnesota",
+		title: "data analyst (internship)",
+		dateStart: [{ month: "june", year: "2015" }],
+		dateEnd: [{ month: "august", year: "2015" }],
+		city: "minneapolis",
+		state: "mn",
+		duties: [
+			"Delivered several university‑wide presentations to campus staff and advisers.",
+			"Determined volunteering and internship were major influences for student to thrive involvement on campus.",
+			"Developed research questions and analysed data for descriptive statistics in Excel based on top possible factors."
 		],
 	}
 ];
