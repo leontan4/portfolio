@@ -90,9 +90,9 @@ const Home = () => {
 											}}
 											className="home-text"
 										>
-											I'm a recent Software Engineer graduate and looking to put my technical skills in good use!
-											I'm a passionate Fullstack Web Developer and have experience in React and Java!
-											Currently, I'm open to potential job opportunities.
+											I am an accomplished Data Engineer with a rich experience at UNFI, ready to channel my technical skills into impactful ventures.
+											As a passionate Fullstack Web Developer, I possess expertise in Python, React and Java, enabling me to contribute significantly to various successful projects.
+											Currently, I am actively seeking new and exciting job opportunities that align with my abilities and enthusiasm for continuous growth.
 										</motion.p>
 									</Col>
 								</Row>
