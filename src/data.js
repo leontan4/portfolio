@@ -142,7 +142,7 @@ export const experiences = [
 			"Generated statistical reports for product orders, optimizing product development labeling processes.",
 			"Utilized in‑house software to efficiently process product specifications, enhancing product analysis production.",
 		],
-	}
+	},
 	{
 		id: 5,
 		company: "the omerta group",
@@ -156,7 +156,7 @@ export const experiences = [
 			"Conducted market research on industry trends, competitors, and opportunities to provide valuable inputs for strategic decision‑making.",
 			"Produce presentable and multiple visually appealing network diagrams for conveying insights to stakeholders.",
 		],
-	}
+	},
 	{
 		id: 6,
 		company: "university of minnesota",
