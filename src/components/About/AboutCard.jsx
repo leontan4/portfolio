@@ -26,7 +26,13 @@ const AboutCard = ({ hobbies }) => {
 			<Col style={{ textAlign: "justify" }}>
 				<motion.p>
 				Greetings! I'm Leon, a Data Engineer with invaluable experience gained while working at UNFI. 
-				My day-to-day responsibilities encompassed maintaining data report pipelines, performing data cleaning, and transforming data into comprehensible stories for the analyst team, all achieved using Python, AWS, and SQL.
+				During my tenure at UNFI, I demonstrated my technical prowess by automating reporting processes and boosting ETL efficiency, employing Python, SQL, and AWS. I efficiently resolved bugs through the adept utilization of dBeaver, CloudFormation, and Step Functions. My collaborative efforts with team members facilitated the seamless migration of on-premises data into the AWS cloud environment.
+				</motion.p>
+				<motion.p>
+				As part of my contributions, I designed and maintained the enterprise data platform infrastructure, providing a solid foundation for data-driven decision-making. My focus on efficiency led to the implementation of high-performance data pipelines, enhancing integration efficiency by an impressive 90%. Additionally, I ensured the data pipeline architecture was robust and accessible, enabling smooth access for analytic and forecasting teams.
+				</motion.p>
+				<motion.p>
+				Throughout my journey, I optimized cross-functional data extraction, significantly enhancing accessibility for business stakeholders, thereby enriching the overall data management experience at UNFI.
 				</motion.p>
 				<motion.p>
 					I started learning Web Development in 2018 and the lockdown in 2020
