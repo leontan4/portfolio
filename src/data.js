@@ -222,7 +222,7 @@ export const projects = [
 	},
 	{
 		id: 3,
-		title: "github profile finder",
+		title: "github finder",
 		languages: [
 			"html & css",
 			"javascript",
@@ -268,7 +268,7 @@ export const projects = [
 	},
 	{
 		id: 5,
-		title: "airbnb housing market",
+		title: "airbnb venture",
 		languages: [
 			"r programming",
 			"data analysis",
